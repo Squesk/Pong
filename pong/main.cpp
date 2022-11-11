@@ -5,6 +5,13 @@
 #include <random>
 #include <cstdlib>
 
+
+// CLASSIC PONG
+// BOUNCE THE BALL USING: "W" AND "S" OR USING ARROW UP AND DOWN (DEPENDS ON THE SIDE OF TWO PLAYERS). IF SOMEONE DON'T CATCH THE BALL, THE GAME WILL RESET. BY USING
+// ENTER YOU WILL RESUME THE GAME
+
+
+
 float GetRandomNumber(std::mt19937& random_generator, float from, float to) {
     std::uniform_real_distribution<float> dis(from, to);
     return dis(random_generator);
